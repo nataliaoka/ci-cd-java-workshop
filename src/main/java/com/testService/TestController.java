@@ -17,7 +17,7 @@ public class TestController {
    * Method testController.
    * @return string This returns a text.
    */
-	@GetMapping("/home")
+@GetMapping("/home")
 	public String homeRequest() {
 		return "Hello World!";
 	}

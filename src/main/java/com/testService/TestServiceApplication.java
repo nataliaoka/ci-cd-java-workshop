@@ -18,15 +18,13 @@ public class TestServiceApplication {
 /**
 * Exemplo básico de um comentário em JavaDoc com mais de uma linha.
 */
-	//private String bar = new String("bar");
-
-	public static void main(String[] args) {
-	/**
-	* Exemplo básico de um comentário 
-	* em JavaDoc com mais de uma linha.
-	*/
-		SpringApplication.run(TestServiceApplication.class, args);
-		System.exit(0);
+   public static void main(String[] args) {
+   /**
+   * Exemplo básico de um comentário em JavaDoc com mais de uma linha.
+   * @param args parametro para executar a aplicação.
+   */
+	   SpringApplication.run(TestServiceApplication.class, args);
+	   System.exit(0);
 	}
 
 }

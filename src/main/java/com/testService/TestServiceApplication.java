@@ -1,8 +1,5 @@
 package com.testService;
 
-/**
- * Exemplo básico de um comentário em JavaDoc.
-*/
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
 * Exemplo básico de um comentário em JavaDoc com mais de uma linha.
+* @author  natalia oka
+* @version 1.0
+* @since   2019-08-03
 */
 @SpringBootApplication
 @ComponentScan(basePackageClasses = { TestController.class })
@@ -18,7 +18,7 @@ public class TestServiceApplication {
 /**
 * Exemplo básico de um comentário em JavaDoc com mais de uma linha.
 */
-	private String bar = new String("bar");
+	//private String bar = new String("bar");
 
 	public static void main(String[] args) {
 	/**
